@@ -1,10 +1,15 @@
-
 package org.example.domain;
 
+public class Amount {
 
-class AmountTest {
+    private int amount;
 
-    void testAmountInitialization() {
+    public Amount(int amount) {
+        this.amount = amount;
+    }
 
+    public int getAmount() {
+        System.out.println("heeellllo");
+        return amount;
     }
 }

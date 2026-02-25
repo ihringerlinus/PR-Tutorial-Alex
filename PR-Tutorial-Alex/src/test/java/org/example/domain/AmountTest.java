@@ -1,14 +1,9 @@
 package org.example.domain;
 
-public class Amount {
 
-    private int amount;
+class AmountTest {
 
-    public Amount(int amount) {
-        this.amount = amount;
-    }
+    void testAmountInitialization() {
 
-    public int getAmount() {
-        return amount;
     }
 }
